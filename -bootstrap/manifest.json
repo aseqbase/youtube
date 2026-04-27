@@ -1,0 +1,10 @@
+{
+    "Image":"plugin",
+    "Name":"Youtube",
+    "Description":"To add Youtube modules",
+    "Access": 900000000,
+    "Reference": "aseqbase/youtube",
+    "PreInstalls": [],
+    "PostInstalls": [],
+    "MetaData":[]
+}
