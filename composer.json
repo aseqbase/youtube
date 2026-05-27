@@ -1,5 +1,5 @@
 {
-    "name":"Youtube",
+    "name":"aseqbase/youtube",
     "description":"To add Youtube modules",
     "type": "package",
     "license": "GPL-3.0-only",
