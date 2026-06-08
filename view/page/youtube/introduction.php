@@ -36,7 +36,7 @@ use MiMFa\Library\Struct;
         }
     </style>
     <div class="center-lead container">
-        <?php if (isValid(\_::$Front, "IntroductionVideoPath")) {
+        <?php if (get(\_::$Front, "IntroductionVideoPath")) {
             module("youtube/Media");
             $ytm = new MiMFa\Module\Youtube\Media();
             $ytm->Source = takeValid(\_::$Front, "IntroductionVideoPath");
